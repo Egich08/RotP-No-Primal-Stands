@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="GNU GPL v3.0"
+
+[[mods]]
+
+modId="rotp_nps"
+version="${file.jarVersion}"
+displayName="RotP No Primal Stands Addon"
+authors="Egich, StandoByte" #optional
+
+description='''
+An addon for Ripples of the Past mod, which prevents you from getting primal stands using an arrow.
+'''
+
+[[dependencies.rotp_nps]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.rotp_nps]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.rotp_nps]]
+    modId="jojo"
+    mandatory=true
+    versionRange="[0.2.2,0.3)"
+    ordering="AFTER"
+    side="BOTH"
